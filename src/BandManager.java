@@ -46,7 +46,7 @@ public class BandManager {
     }
 
     /*
-     * @description - Sort the bands by name in ascending order
+     * @description - Sort the bands by name in ascending order utilizing a selection sort algorithm
      */
     public void sortByName() {
         for (int i = 0; i < _bands.size(); i++) {
@@ -61,7 +61,7 @@ public class BandManager {
     }
 
     /*
-     * @description - Sort the bands by set time in ascending order
+     * @description - Sort the bands by set time in ascending order utilizing a selection sort algorithm
      */
     public void sortBySetTime() {
         for (int i = 0; i < _bands.size(); i++) {
