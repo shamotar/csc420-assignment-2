@@ -87,8 +87,6 @@ public class BandManager {
         if (high >= low) {
             int mid = low + (high - low) / 2;
 
-            System.out.println(_bands.get(mid).getBandName());
-
             if (_bands.get(mid).getBandName().equals(bandName)) {
                 return _bands.get(mid);
             }
